@@ -2,7 +2,6 @@
   "name": "test1/library",
   "description":  "test PaymentService Lib",
   "type": "magento2-library",
-   "version": "v1.0.0",
    "authors": [
     {
       "name": "Shanty Justus",
