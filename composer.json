@@ -2,7 +2,7 @@
   "name": "test/library",
   "description":  "test PaymentService Lib",
   "type": "magento2-library",
-   "version": "1.0.2",
+   "version": "v1.0.0",
    "authors": [
     {
       "name": "Shanty Justus",
@@ -13,10 +13,5 @@
   ],
   "license": [
     "afl-3.0"
-  ],
-    "config": {
-        "github-oauth": {
-            "github.com": "a06a6faaa09078d91d473751c390ee6226da8393"
-        }
-    }
+  ]
 }
