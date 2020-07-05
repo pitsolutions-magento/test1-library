@@ -12,5 +12,13 @@
   ],
   "license": [
     "afl-3.0"
-  ]
+  ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Test\\PaymentService\\": ""
+        }
+    }
 }
