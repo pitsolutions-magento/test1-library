@@ -13,5 +13,10 @@
   ],
   "license": [
     "afl-3.0"
-  ]
+  ],
+    "config": {
+        "github-oauth": {
+            "github.com": "a06a6faaa09078d91d473751c390ee6226da8393"
+        }
+    }
 }
