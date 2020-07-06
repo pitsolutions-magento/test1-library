@@ -1,18 +1,29 @@
-{
-  "name": "test11/library",
-  "description":  "test PaymentService Lib",
-  "type": "magento2-library",
-   "authors": [
-    {
-      "name": "Shanty Justus",
-      "email": "shanty@pitsolutions.xom",
-      "homepage": "https://www.webshopextension.com/",
-      "role": "Developer"
-    }
-  ],
-  "license": [
-    "afl-3.0"
-  ],
+ {
+    "name": "test11/library",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "type": "magento2-library",
+    "description": "test PaymentService Lib",
+    "authors": [
+        {
+            "name": "Shanty Justus",
+            "email": "shanty@pitsolutions.xom",
+            "homepage": "https://www.webshopextension.com/",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:pitsolutions-magento/test1-library.git"
+        }
+    ],
     "autoload": {
         "files": [
             "registration.php"
@@ -20,5 +31,7 @@
         "psr-4": {
             "Test\\PaymentService\\": ""
         }
-    }
+    },
+    "minimum-stability": "v1.1",
+    "prefer-stable": true
 }
