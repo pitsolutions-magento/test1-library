@@ -32,6 +32,6 @@
             "Test\\PaymentService\\": ""
         }
     },
-    "minimum-stability": "v1.1",
+    "minimum-stability": "v1.4",
     "prefer-stable": true
 }
